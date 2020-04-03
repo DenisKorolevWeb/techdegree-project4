@@ -1,34 +1,58 @@
-
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+  @media #{$brk-narrow} {
+    padding: 10px 30px;
   }
-  
-  .default {
-    background-color: #51ddfc;
+
+}
+
+.default {
+  background-color: bc('default');
+
+  &:hover {
+    background-color: lighten(bc('default'), 10%);
   }
-  
-  .error {
-    background-color: #e4757a;
+}
+
+.error {
+  background-color: bc('error');
+
+  &:hover {
+    background-color: lighten(bc('error'), 10%);
   }
-  
-  .info {
-    background-color: #927bc1;
+}
+
+.info {
+  background-color: bc('info');
+
+  &:hover {
+    background-color: lighten(bc('info'), 10%);
   }
-  
-  .success {
-    background-color: #63cc82;
+}
+
+.success {
+  background-color: bc('success');
+
+  &:hover {
+    background-color: lighten(bc('success'), 10%);
   }
-  
-  .warning {
-    background-color: #fd7856;
+}
+
+.warning {
+  background-color: bc('warning');
+
+  &:hover {
+    background-color: lighten(bc('warning'), 10%);
   }
+}

@@ -1,2 +1,25 @@
-$clr: black;
+// Variables
 
+//Colors
+
+$white: #fff;
+$primary-color: #58e1c1;
+$secondary-color: #777;
+$link-color: #51ddfc;
+$border-color: #ccc;
+
+$background-color: ('default':#51ddfc,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856,
+);
+
+// Fonts
+$font-stack-primary: 'Lato',
+sans-serif;
+$font-stack-secondary: 'Bree Serif',
+serif;
+
+// Breakpoints
+$brk-narrow: '(min-width: 768px)';

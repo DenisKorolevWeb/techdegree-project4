@@ -1,0 +1,6 @@
+// Buttons 
+
+@function bc($opt) {
+    $value: map-get($background-color, $opt);
+    @return $value;
+}
