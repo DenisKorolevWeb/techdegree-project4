@@ -27,11 +27,12 @@
     @media #{$brk-narrow} {
       flex-basis: 100px;
     }
+    &:hover {
+      color: $white;
+      background-color: $primary-color;
+    }
+  
   }
 
-  &:hover {
-    color: $white;
-    background-color: $primary-color;
-  }
-
+  
 }

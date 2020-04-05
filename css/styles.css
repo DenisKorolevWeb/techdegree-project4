@@ -489,7 +489,7 @@ a {
     flex-basis: 100px;
   }
 }
-.nav:hover {
+.nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
